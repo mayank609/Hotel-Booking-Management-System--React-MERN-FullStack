@@ -4,9 +4,9 @@
   "description": "booking mern app backend",
   "main": "./src/index.ts",
   "scripts": {
-    "dev": "node init && nodemon",
-    "build": "node init && tsc --skipLibCheck",
-    "start": "node init && node dist/hotel-booking-backend/src/index.js",
+    "dev": "nodemon",
+    "build": "tsc --skipLibCheck",
+    "start": "node dist/hotel-booking-backend/src/index.js",
     "e2e": "cross-env DOTENV_CONFIG_PATH=.env.e2e nodemon"
   },
   "author": "Arnob Mahmud",
